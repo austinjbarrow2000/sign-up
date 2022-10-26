@@ -1,12 +1,13 @@
 html, body {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0;
 }
 
 #leftContainer {
@@ -20,8 +21,12 @@ img {
     max-height: 100%;
 }
 
+#form-inputs {
+    background-color: lightgray;
+    padding: 2em;
+}
+
 #rightContainer {
-    padding: 20px;
     flex: 2 1 0;
     display: flex;
     flex-direction: column;
