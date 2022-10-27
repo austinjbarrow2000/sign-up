@@ -22,6 +22,15 @@ body {
     background-color: #F6F6F6;
 }
 
+#logo {
+    height: 15%;
+    margin-top: 37.5%;
+    padding: 1em 50% 1em 50%;
+    background-color: black;
+
+    opacity: 85%;
+}
+
 #intro {
     font-family: "DMSans-Bold", Verdana, Tahoma, sans-serif;
     font-size: xx-large;
@@ -32,6 +41,21 @@ body {
     flex: 1 1 0;
     overflow: hidden;
     position: relative;
+
+    background-image: url(assets/nasa-yZygONrUBe8-unsplash.jpg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: "DMSans-Bold", Verdana, Tahoma, sans-serif;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 2em;
 }
 
 img {
