@@ -13,10 +13,11 @@
         <img id = "splash" src="nasa-yZygONrUBe8-unsplash.jpg">
     </div>
     <div id="rightContainer">
-        <h2>
+        <h2 id = "intro">
             This is not a real online service! You know you need something
             like this in your life to help you realize your deepest dreams.
             Sign up <em>now</em> to get started.
+            <br><br>
             You <em>know</em> you want to.
         </h2>
 
@@ -24,23 +25,43 @@
             <div id = "form-inputs">
                 <h1>Let's Do This!</h1>
 
-                <label for="first_name">FIRST NAME</label>
-                <input type="text" id="first_name" name="first_name">
-            
-                <label for="last_name">LAST NAME</label>
-                <input type="text" id="last_name" name="last_name">
+                <div class="input-container">
+                    <div class="input-group">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name" name="first_name" placeholder="John">
+                    </div>
 
-                <label for="user_email">EMAIL ADDRESS</label>
-                <input type="email" id="user_email" name="email" placeholder="you@example.com">
+                    <div class="input-group">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name" name="last_name" placeholder="Doe">
+                    </div>
+                </div>
+                
 
-                <label for="phone_number">PHONE NUMBER</label>
-                <input type="tel" id="phone_number" name="phone_number">
+                <div class="input-container">
+                    <div class="input-group">
+                        <label for="user_email">EMAIL ADDRESS</label>
+                        <input type="email" id="user_email" name="email" placeholder="abc@gmail.com">
+                    </div>
+                
+                    <div class="input-group">
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="tel" id="phone_number" name="phone_number" pattern="^(1-)?\d{3}-\d{3}-\d{4}$"
+                            placeholder="123-456-7890">
+                    </div>
+                </div>
 
-                <label for="user_password">PASSWORD</label>
-                <input type="password" id="user_password" name="password">
-
-                <label for="confirm_password">CONFIRM PASSWORD</label>
-                <input type="password" id="confirm_password" name="password">
+                <div class="input-container">
+                    <div class="input-group">
+                        <label for="user_password">PASSWORD</label>
+                        <input type="password" id="user_password" name="password">
+                    </div>
+                
+                    <div class="input-group">
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm_password" name="password">
+                    </div>
+                </div>
             </div>
             
             <button type="submit">Create Account</button>
