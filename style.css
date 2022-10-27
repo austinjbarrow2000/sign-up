@@ -43,8 +43,7 @@ img {
     background-color: white;
     padding: 2em;
     box-shadow: 2px 2px 2px 2px lightgray;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
     padding-left: 5em;
     font-size: large;
 }
@@ -80,4 +79,14 @@ input:invalid {
 
 input:focus {
     border-color: darkblue;
+}
+
+button[type = submit] {
+    font-family: "DMSans", Verdana, Tahoma, sans-serif;
+    font-size: large;
+    color: white;
+    background-color: green;
+    padding: 0.5em 3em 0.5em 3em;
+    border-radius: 15px;
+    margin-left: 5em;
 }
